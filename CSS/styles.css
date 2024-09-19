@@ -43,3 +43,81 @@ body{
     color:black;
     background-color: #37b4fb;
 }
+.formulario{
+    background-color: rgb(108, 238, 255)
+
+}
+.input-nome{
+    /*remove a borda do elemento*/
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    /* define a opacidade do elemento */
+    opacity: 70%;
+}
+.botao{
+    background: rgb(108, 104, 222);
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+    /* aplica sompra no texto posiçao x,y blur e rgba que aplica com opacidade */
+    text-shadow: 11px  1px 5px rgba(119, 10, 114, 0.9);
+}
+.checar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* modifica o tipo do cursor */
+    cursor: pointer;
+    /* zerar as configurações de aparencia */
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #6206f7;
+    border-radius: 5px;
+}
+
+.checar:checked{
+    background-color: #4caf50;
+}
+
+.email{
+    width: 300px;
+    padding: 5px  5px;
+    margin-left: 5px;
+    border: 2px solid white;
+}
+
+.selecao{
+    appearance: none;
+    width: 300px;
+    padding: 4px;
+    font-size: 16px;
+    color: #4a3f3f;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /*sombra no input*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+
+
+}
+
+.radio{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5c00cc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.radio:checked{
+/* Pseudoclasse, quando o estado do objeto muda, ele atribui outras propriedades*/
+    background-color: #6206f7;
+    border-color:rgb(222, 36, 209)
+
+}
