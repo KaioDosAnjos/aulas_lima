@@ -4,33 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-
-    <style>
-        /* Seletor universal */
-        *{
-           margin: 0;
-
-        }
-        /*Seletor de tipo, aplicando em uma tag */
-        p{
-            color: rgb(75, 235, 112)
-        }
-
-        /*Seletor de classe */
-        .paragrafo{
-            background-color: chocolate;
-            /* margin: 10px; - Aplica em todos as margens */
-            /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
-            /*margin: 10px 20px 30px 40px; /* aplica margem top, right, bottom, left*/
-            margin-left: 10px;
-            /* alinha elementos ao centro*/
-            text-align: center;
-        }
-        .imagem{
-            width: 150px;
-            height: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    
 
 </head>
 <body style="background-color: rgb(158, 222, 252);"> 
@@ -169,6 +144,58 @@
     <dt> Javascript</dt>
     <dd>Linguagem de progamação</dd>
  </dl>
+
+<!-- trabalhando com tabelas -->
+ <br>
+ <hr>
+<!-- cria uma nova tabela -->
+ <table border="1"> 
+    <!--tr cria uma nova linha-->
+    <tr>
+        <!-- th insere uma celula de Cabeçalho -->
+         <th>Nome</th>
+         <th>Idade</th>
+         <th>Profissão</th>
+    </tr>
+    <tr>
+        <!-- td cria uma nova celula de dados -->
+         <td>Douglas</td>
+         <td>32</td>
+         <td>Professor</td>
+    </tr>
+    <tr>
+      <td>Ricardo</td>
+      <td>33</td>
+      <td>Professor</td>
+
+    </tr>
+
+
+ </table>
+<br>
+ <table class="tabela">
+     <!-- tag semantica de cabeçalho -->
+    <thead>
+        <tr>
+            <th class="cabecalho">Nome</th>
+            <th class="cabecalho">Telefone</th>
+            <th class="cabecalho">Cidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="celula"> Jose da Silva</td>
+            <td class="celula">2345678</td>
+            <td class="celula">Andradna</td>
+         </tr>
+         <tr>
+            <td class="celula"> Maria da Silva</td>
+            <td class="celula">2345678</td>
+            <td class="celula">Andradna</td>
+        </tr>
+    </tbody>
+ </table>
+
 
 </body>
 </html>
