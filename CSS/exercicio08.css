@@ -1,0 +1,49 @@
+body{
+    background-color: rgb #5dcbe0c5
+}
+
+
+.formulario{
+
+}
+
+.email{
+    width: 250px;
+    padding: 5px  5px;
+    margin-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+    
+
+.senha{
+    width: 250px;
+    padding: 5px  5px;
+    margin-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+.entrar{
+    width: 50px;
+    padding: 5px  5px;
+    margin-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+/*................................................................................................... */
+.Nome{
+    width: 250px;
+    padding: 5px  5px;
+    margin-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.corpo{
+    background-color:  #92c2f0
+}
+
+    
+

@@ -1,0 +1,27 @@
+.div1{
+    background-color: chartreuse;
+}
+
+.div2{
+    background-color:rgb(0, 190, 237);
+}
+
+.div3{
+    background-color: rgb(255, 0, 0);
+}
+
+.container{
+    border: 2px solid black;
+    /*Limita o tamanho do elemento*/
+    max-width: 400px;
+    margin:0 auto;
+    /* Define o tamanho do elemento e o espaço entre eles */
+    display: flex
+}
+
+.item{
+    background-color: blue;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue
+}
